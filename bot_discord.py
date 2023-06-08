@@ -8,9 +8,9 @@ from discord import Intents
 import asyncio
 
 # Configuration Discord
-TOKEN = 'MTA3Nzk3MjIzODQ2NjMwNjA2OA.GcUZQn.YDlC-Yh0aoXivCyL5AVFvz9M2wGJ9FjH9wZa48'
-GUILD_ID = '974399260521021460'
-CHANNEL_ID = '1116022368867979386'
+TOKEN = ''
+GUILD_ID = ''
+CHANNEL_ID = ''
 
 def find_links_with_word(url, words):
     response = requests.get(url)
